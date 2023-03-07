@@ -33,7 +33,7 @@ static void Task7Udp()
 }
 
 /// <summary>
-/// TCP server load testing.
+/// UDP server load testing.
 /// </summary>
 static void UdpServerTesting()
 {
@@ -77,6 +77,6 @@ static void UdpServerTesting()
     }
 }
 
-//Task7Udp();
-UdpServerTesting();
+Task7Udp();
+//UdpServerTesting();
 Console.ReadKey();
