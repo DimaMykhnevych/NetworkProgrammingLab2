@@ -2,7 +2,7 @@
 using System.Net.Sockets;
 
 /// <summary>
-/// Implementation of reaquired task.
+/// Implementation of reaquired task using TCP.
 /// </summary>
 static void Task7()
 {
@@ -42,6 +42,9 @@ static void Task7()
     Console.ReadKey();
 }
 
+/// <summary>
+/// TCP server load testing.
+/// </summary>
 static void TcpServerTesting()
 {
     // List to store clients.
